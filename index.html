@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Company Survey</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Help us improve our services. Kindly provide the requested information</p>
+        <form id="survey-form">
+            <label for="name" id="name-label">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name"><br>
+
+            <label for="email" id="email-label">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address"><br>
+
+            <label for="age" id="age-label">Age</label>
+            <input type="number" min="1" max="18" id="age" name="age" placeholder="Your age"><br>
+
+            <label for="current-role">What is your current role?</label>
+            <select name="current-role">
+                <option value="student">Student</option>
+                <option value="worker">Worker</option>
+                <option value="retired">Retired</option>
+            </select><br>
+
+            <label for="recommend">Would you recommend us?</label>
+            <input type="radio" name="recommend" value="definitely"> Definitely<br>
+            <input type="radio" name="recommend" value="probably"> Probably<br>
+            <input type="radio" name="recommend" value="no"> No<br>
+
+            <label for="suggest">What should we change?</label>
+            <input type="checkbox" name="suggest" value="books">Books<br>
+            <input type="checkbox" name="suggest" value="tables">Tables<br>
+            <input type="checkbox" name="suggest" value="rooms">Rooms<br>
+            <input type="checkbox" name="suggest" value="staff">Staff<br>
+
+            <label for="other-suggest">Any other suggestion?</label>
+            <textarea name="other-suggest"></textarea><br>
+
+            <input type="submit" name="submit" value="Submit">
+
+
+        </form>
+    </body>
+</html>
