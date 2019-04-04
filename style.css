@@ -1,3 +1,47 @@
 body {
+    margin: 0% 10%;
+    background-color: steelblue;
+}
+
+#title, #description {
     text-align: center;
+    color: cornsilk;
+}
+
+div {
+    border-radius: 10px;
+    background-color: cornsilk;
+    padding: 30px;
+    color: steelblue;
+}
+
+.label {
+    float: left; 
+    width: 10em; 
+    margin-right: 3em; 
+    text-align: right;
+    
+        
+}
+
+
+input[type="text"], input[type="email"] {
+    width: 30%;
+    padding: 5px;
+}
+
+input[type="number"] {
+    padding: px;
+}
+
+input, select, textarea {
+    margin-bottom: 20px;
+}
+
+
+input[type="checkbox"], input[type="radio"], options {
+     text-align: right;
+     margin-left: 15em;
+     margin-bottom: 20px;
+    
 }
